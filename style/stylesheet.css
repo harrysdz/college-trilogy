@@ -1,0 +1,146 @@
+/* Navigation */
+.navigation{
+	text-align: center;
+	list-style-position: inside;
+}
+
+.navigation li{
+	display: inline-block;
+	margin-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navigation a{
+	margin-left: 15px;
+	color: black;
+	/*margin-right: 15px;*/
+}
+
+.navigation a:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+.navigation li:first-of-type{
+	margin-left: 0px;
+}
+
+
+/*Header*/
+.coloured-background{
+	background-color: #401215;
+	background-size: auto;
+	background-size: 100%;
+}
+
+.centered-box{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.centered-box img{
+	width: 300px;
+	border-radius: 280px;
+	border: 3px solid white;
+}
+
+.centered-box h1{
+	color: white;
+}
+
+/*Albums*/
+.albums img{
+	width: 140px;
+	border: 1.5px solid black;
+}
+.albums{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.albums h3{
+	margin-bottom: 10px;
+}
+
+.albums h5{
+	font-weight: 300;
+	padding-bottom: 15px;
+}
+
+
+/*About the trilogy*/
+.about img{
+	width: 100%;
+	color: white;
+}
+
+.about .row{
+	padding: 30px;
+}
+.about p{
+	color: white;
+}
+h2{
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+.diff-background{
+	background-color: #271916;
+}
+
+.grad-background{
+	background-color: #582175;
+}
+.about{
+	margin-top: 50px;
+}
+
+/*Contact us*/
+
+.contact img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.contact-heading{
+	text-align: center;
+	margin: 40px;
+}
+
+.contact-background{
+	background-color: black;
+	padding: 5px 40px 0 40px;
+}
+
+.contact h1,p{
+	color: white;
+}
+
+.contact p{
+	margin-left: 20px;
+	text-align: center;
+	 /*margin-top: 20px;*/
+/*	 font-size: 20px;*/
+}
+
+/*Footer*/
+.footer{
+	background-color: lightgrey;
+}
+.footer p{
+	text-align: center;
+	margin-top: 20px;
+	margin bottom: 20px;
+	padding-bottom: 20px;
+	color: black;
+}
+.footer a{
+	color: midnightblue;
+}
+.footer a:hover{
+	/*background-color: transparent;*/
+	opacity: 0.2;
+}
