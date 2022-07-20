@@ -108,11 +108,13 @@ h2{
 .contact img{
 	width: 100%;
 	margin-bottom: 30px;
+	margin: ;
 }
 
 .contact-heading{
 	text-align: center;
-	margin: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .contact-background{
@@ -138,6 +140,10 @@ h2{
 .contact a:hover{
 	opacity: .7;
 	color: #2189A7;
+}
+.contact b{
+	font-family: 'Lato', sans-serif;
+
 }
 
 /*Footer*/
